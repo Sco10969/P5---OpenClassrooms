@@ -3,5 +3,8 @@
 export default add;
 
 function add(a, b) {
-    return a + b;
+    const intA = Number(a);
+    const intB = Number(b);
+
+    return intA + intB;
 }
